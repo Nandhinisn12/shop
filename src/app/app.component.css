@@ -1,0 +1,53 @@
+.lable {
+  background-color: lightgrey;
+  margin-top: -8px;
+  margin-left: -16px;
+  margin-right: -16px;
+  padding: 20px;
+  display: flex;
+}
+.bar {
+  background-color: lightgray;
+}
+.list {
+  flex: 1 2 auto;
+}
+.text {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.box {
+  margin-left: 20px;
+}
+.menu-icon {
+  background-color: lightgray;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+  padding-left: 5%;
+}
+.tool {
+  background-color: lightgray;
+  color:black;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+  text-align: right;
+  padding-left: 50%;
+}
+
+.link {
+  background-color: lightgray;
+  border: 3px;
+  font-size: larger;
+  margin-right: 20px;
+  cursor: pointer;
+  padding-left: 10%;
+  transition: transform 0.2s;
+}
+.link:hover {
+  font-weight: 700;
+  transform: scale(1);
+  background-color: lightgray;
+}

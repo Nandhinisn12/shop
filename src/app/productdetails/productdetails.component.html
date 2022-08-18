@@ -1,0 +1,37 @@
+<div class="heading">
+  <h1>{{product.title}}</h1>
+  </div>
+  <div class="image">
+    <img [src]="product.images[0]">
+  </div>
+  <div class="host">
+    <b>PRICE-</b>
+    <span>${{product.price}}</span>
+  </div>
+  <div class="host">
+  <b>BRAND- </b>
+  <span>{{product.brand}}</span>
+  </div>
+  <div class="host">
+    <b>CATEGORY- </b>
+    <span>{{product.category}}</span>
+  </div>
+  <div class="host">
+    <b>DESCRIPTION- </b>
+    <span>{{product.description}}</span>
+  </div>
+  <div class="host">
+  <b>STOCK- </b>
+  <span>{{product.stock}}</span>
+  </div>
+  <div class="host">
+  <b>DISCOUNT PERCENTAGE- </b>
+  <span>{{product.discountPercentage}}</span>
+  </div>
+  <div class="host">
+  <b>RATING- </b>
+  <span>{{product.rating}}</span>
+  </div>
+  <div class="buy">
+  <button mat-button>BUY</button>
+  </div>

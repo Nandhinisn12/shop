@@ -1,0 +1,32 @@
+<div class="sale">
+  <h1>PRODUCTS LIST</h1>
+  <h2>Best Sellers in Computers & Accessories</h2>
+
+  <div class="list">
+    <mat-grid-list cols="3" rowheight="5">
+      <mat-grid-tile *ngFor="let product of products" class="cards">
+        <mat-card class="example-card">
+          <mat-card-header>
+            <mat-card-title class="sub">{{ product.title }}</mat-card-title>
+            <mat-card-subtitle>{{ product.category }}</mat-card-subtitle>
+          </mat-card-header>
+          <img
+            class="example-img mt-3 mb-3"
+            mat-card-img
+            src="{{ product.images[0] }}"
+          />
+
+          <mat-card-content>
+            <p>{{ product.description }}</p>
+          </mat-card-content>
+          <mat-card-actions class="items">
+            <button mat-button>Cart</button>
+            <button (click)="getproduct($event, product)" mat-button>
+              DETAILS
+            </button>
+          </mat-card-actions>
+        </mat-card>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+.host{
+  font-size: 20px;
+  font-family: sans-serif;
+
+  text-align: center;
+}
+.image{
+  object-fit: cover;
+  padding-left: 35%;
+  height:fit-content;
+}
+.heading{
+  text-align: center;
+  color:blueviolet;
+}
+.buy{
+  padding-left: 50%;
+
+}

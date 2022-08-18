@@ -1,0 +1,33 @@
+<head>
+  <title>My Store</title>
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <nav class="lable">
+    <mat-toolbar class="bar">
+      <button
+        mat-icon-button
+        class="menu-icon"
+        aria-label="Example icon-button with menu icon"
+      ></button>
+      <mat-icon>menu</mat-icon>
+      <div class="box"><span class="text">E-commerce</span></div>
+      <span class="list"></span>
+      <button class="link" routerLink="/product">PRODUCT</button>
+      <button
+        mat-icon-button
+        class="tool"
+        aria-label="Example icon-button with heart icon"
+      >
+        <mat-icon>search</mat-icon>
+        <mat-icon>favorite</mat-icon>
+        <mat-icon>add_shopping_cart</mat-icon>
+      
+      </button>
+    </mat-toolbar>
+  </nav>
+  <router-outlet></router-outlet>
+</body>
